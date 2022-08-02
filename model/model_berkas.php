@@ -58,8 +58,9 @@
     							   ('$id','$nip','$keterangan','$tgl','$id_f','file')";
     				
     				$sql		= mysqli_query($koneksi,$query);
-    				
-    				move_uploaded_file($lokasi, "logo/".$id_f);
+    				$destination_path = getcwd().DIRECTORY_SEPARATOR;
+					$target_path = $destination_path .'logo/' . $id_f;
+    				@move_uploaded_file($lokasi,$target_path);
                 }
 				
 				// CEK SQL

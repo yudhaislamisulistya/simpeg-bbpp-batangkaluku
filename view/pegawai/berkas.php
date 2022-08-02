@@ -89,7 +89,7 @@ date_default_timezone_set('Asia/Jakarta');
                                           <img src="logo/<?php echo $row_berkas['foto'];?>" style="width: 70px;height: 70px;"></a>
                                         <?php } else {?>
                                             <i class="fa fa-file-text">
-                                                <br> File Berkas
+                                                <br> <a href="logo/<?php echo $row_berkas['foto'];?>">File Berkas</a>
                                             </i>
                                         <?php } ?>
                                         </td>
