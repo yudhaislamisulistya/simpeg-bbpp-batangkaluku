@@ -15,7 +15,7 @@
     <link href="bootstrap/css/animate.css" rel="stylesheet">
     <link href="bootstrap/css/style.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="logo/bm.png">
+    <link rel="shortcut icon" href="logo/bm.jpeg">
 
 </head>
 

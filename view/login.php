@@ -20,7 +20,7 @@
 
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-  <link rel="shortcut icon" href="logo/bm.png">
+  <link rel="shortcut icon" href="logo/bm.jpeg">
 
 </head>
 
@@ -34,7 +34,7 @@
     <table width="100%">
       <tr>
         <td align="center" width="15%">
-          <img src="logo/bm.png" style="width: 100px;">
+          <img src="logo/bm.jpeg" style="width: 100px;">
         </td>
         <td width="85%">
           <h2><b style="color: White;">Sistem Informasi Kenaikan Pangkat, Kenaikan Gaji Berkala dan Arsip

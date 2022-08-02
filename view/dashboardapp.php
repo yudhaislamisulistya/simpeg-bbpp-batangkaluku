@@ -61,7 +61,7 @@
 <?php 
 $row_data= mysqli_fetch_array($data);
     if ($row_data['logo']==""){
-  ?><link rel="shortcut icon" href="logo/bm.png">
+  ?><link rel="shortcut icon" href="logo/bm.jpeg">
   <?php
   }
   else

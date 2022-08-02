@@ -36,7 +36,7 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <link rel="shortcut icon" href="../logo/bm.png">
+    <link rel="shortcut icon" href="../logo/bm.jpeg">
 
 </head>
 <body style="background: linear-gradient(to right,#60CEFF, #48D1CC);background: url(../logo/bg.jpg)no-repeat center center fixed;-webkit-background-size: cover;
@@ -49,7 +49,7 @@
 <table width="100%"> 
 <tr>
     <td width="15%" align="center">         
-         <img src="../logo/bm.png" style="width: 80%;">
+         <img src="../logo/bm.jpeg" style="width: 80%;">
     </td>
     <td width="80%">
      <b style="font-size: 10px;text-shadow: 0 0 5px white;">Sistem Informasi Kenaikan Pangkat dan Kenaikan Gaji Berkala (SEPAKAT BEKAWAN) <?php echo $home['nama'];?><br>

@@ -122,7 +122,7 @@ if($_SESSION['level_simpeg']=="admin")
             <table width="100%"> 
             <tr>
                 <td align="center" width="15%">         
-                     <img src="logo/bm.png" style="width: 100px;">
+                     <img src="logo/bm.jpeg" style="width: 100px;">
                 </td>
                 <td width="85%">
                  <h2><b style="color: orange;">Sistem Informasi Kenaikan Pangkat, Kenaikan Gaji Berkala dan Arsip Kepegawaian<?php echo $row_data['nama'];?><br>
@@ -232,7 +232,7 @@ if($_SESSION['level_simpeg']=="admin")
             <table width="100%"> 
             <tr>
                 <td align="center" width="15%">         
-                     <img src="logo/bm.png" style="width: 100px;">
+                     <img src="logo/bm.jpeg" style="width: 100px;">
                 </td>
                 <td width="85%">
                  <h2><b style="color: orange;">Sistem Informasi Kenaikan Pangkat, Kenaikan Gaji Berkala dan Arsip Kepegawaian <?php echo $row_data['nama'];?><br>

@@ -46,7 +46,7 @@ $pdf = new Dompdf();
 ob_start();
 ?>
 <title>Data Gaji Pegawai <?php echo $home['nama'];?></title>
-<link rel="shortcut icon" href="../logo/bm.png">
+<link rel="shortcut icon" href="../logo/bm.jpeg">
 <html xmlns="http://www.w3.org/1999/xhtml"> <!-- Bagian halaman HTML yang akan konvert -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />

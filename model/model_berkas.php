@@ -74,7 +74,7 @@
 			}
 		
 		// QUERY UNTUK MENGUBAH DATA (UPDATE)
-			function dataUpdate($id,$nip,$keterangan,$tipe,$foto,$lokasi) {
+			function dataUpdate($id,$nip,$keterangan,$foto,$tipe,$fotox,$lokasi) {
 				$koneksi = $this->koneksi;
 				if(empty($foto))
 				  {
@@ -150,7 +150,7 @@
 						// simpan foto baru
 						$q1 	= mysqli_query($koneksi,"SELECT * FROM berkas ORDER BY id DESC");
     					$dtx 	= mysqli_fetch_array($q1);
-    					$idx		= $dtx['id']+1;
+    					$idx		= $dtx['id'];
     
     					$id_f = $idx."_".$foto;
     					
@@ -181,7 +181,7 @@
 									keterangan					= '$keterangan',
 									foto 						= '$id_f',
 									tipe                        = 'gambar'
-								   WHERE id	= '$id' AND nip ='$nip'";
+								   WHERE id	= '$idx' AND nip ='$nip'";
                             }
                             else
                             {
@@ -190,7 +190,7 @@
 									keterangan					= '$keterangan',
 									foto 						= '$id_f',
 									tipe                        = 'file'
-								   WHERE id	= '$id' AND nip ='$nip'";
+								   WHERE id	= '$idx' AND nip ='$nip'";
                             }
 					}
 

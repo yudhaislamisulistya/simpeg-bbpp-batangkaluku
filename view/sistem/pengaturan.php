@@ -173,7 +173,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                   if ($row_data['logo']=="")
                     {
                     ?>
-                    <img style="height: 200px;" src="logo/bm.png">
+                    <img style="height: 200px;" src="logo/bm.jpeg">
                   <?php
                     }
                   else
