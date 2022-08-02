@@ -261,7 +261,7 @@ CREATE TABLE `keluarga` (
   `nama` varchar(100) NOT NULL,
   `tempat` varchar(100) NOT NULL,
   `tgl_lahir` date NOT NULL,
-  `nik` int(50) NOT NULL,
+  `nik` varchar(50) NOT NULL,
   `pekerjaan` varchar(100) NOT NULL,
   `tgl_nikah` date NOT NULL,
   `ke` int(10) NOT NULL,
